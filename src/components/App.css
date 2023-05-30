@@ -1,0 +1,35 @@
+.square {
+  padding: 0;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: #45a049;
+  color: #fff;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.status.winner {
+  font-weight: bold;
+  font-size: 20px;
+  color: #45a049;
+}
